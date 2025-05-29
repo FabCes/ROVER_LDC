@@ -33,7 +33,7 @@ At this point, all required nodes should be running.
 
 ##  4. Set ROS Domain ID (if using rosbot container terminals)
 
-If you're using terminals from within the `rosbot` image, remember to set the correct `ROS_DOMAIN_ID`, since all nodes run with `ID=1`:
+If you're not using terminals from within the `rosbot` image, remember to set the correct `ROS_DOMAIN_ID`, since all nodes run with `ID=1`:
 
 ```bash
 export ROS_DOMAIN_ID=1
